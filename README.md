@@ -22,7 +22,7 @@
 
 # AkylAI-TTS for Kyrgyz language
 
-We present to you a model trained in the Kyrgyz language, which has been trained on 13 hours of speech and 7,000 samples, complete with source code and training scripts. The architecture is based on Matcha-TTS.
+We present to you a model trained in the Kyrgyz language, which has been trained on [13 hours of speech and 7,000 samples,](https://huggingface.co/datasets/Simonlob/Kany_dataset_mk4_Base) complete with source code and training scripts. The architecture is based on Matcha-TTS.
 It`s a new approach to non-autoregressive neural TTS, that uses [conditional flow matching](https://arxiv.org/abs/2210.02747) (similar to [rectified flows](https://arxiv.org/abs/2209.03003)) to speed up ODE-based speech synthesis. Our method:
 
 - Is probabilistic
